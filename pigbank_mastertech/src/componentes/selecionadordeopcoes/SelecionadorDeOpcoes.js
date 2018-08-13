@@ -11,7 +11,7 @@ class SelecionadorDeOpcoes extends Component {
     return (
       <div className="App">
 
-        <button onClick={() => this.nextPath('/lista-filhos')} class="botaoOpcao">MAE</button>
+        <button onClick={() => this.nextPath('/conteudo/lista-filhos')} class="botaoOpcao">MAE</button>
         <button class="botaoOpcao">FILHO</button>
       </div>
     );

@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import '../header/header.css';
+import './header.css';
 import logo from '../header/logo-exemplo.jpg';
 
 class Header extends Component {
+
+  openContainer(){
+    this.props.history.push('/conteudo');
+  }
+
   render() {
     return (
       <div className='telaInicial'>
@@ -20,7 +25,7 @@ class Header extends Component {
             <span> O Pigbank pode te ajudar!</span>
             <div className='botaoInicial'>
               <button>Como funciona</button>
-              <button>Faça seu cadastro</button>
+              <button onClick={()=>this.openContainer()}>Faça seu cadastro</button>
             </div>
         </div>
       </div>

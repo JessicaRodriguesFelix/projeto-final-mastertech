@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Footer from './componentes/footer/Footer'
-import Container from './componentes/container/Container'
+import InternalApp from './InternalApp'
 import Header from './componentes/header/header';
+import { Switch, Route } from 'react-router-dom'
+
 
 class App extends Component {
   render() {
     return (
-        <Header/>
+      <Switch>
+        <Route exact path='/' component={Header} />
+        <Route path='/conteudo' component={InternalApp} />
+      </Switch>
     );
   }
 }
