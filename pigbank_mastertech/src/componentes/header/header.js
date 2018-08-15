@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../header/header.css';
-import logo from '../header/logo-exemplo.jpg';
+import logo from '../header/Logo.png';
 
 class Header extends Component {
   render() {
     return (
       <div className='telaInicial'>
         <header>
-        <img className='logo' src={logo} alt="Logo"/>
+          <img className='logo' src={logo} alt="Logo"/>
           <a href="">O que é</a>
           <a href="">Como funciona</a>
           <a href="">Quero usar</a>
@@ -16,14 +16,16 @@ class Header extends Component {
         </header>
 
         <div className='chamada'>
-            <h2>Não sabe como falar com seu filho sobre educação financeira?</h2>
-            <span> O Pigbank pode te ajudar!</span>
-            <div className='botaoInicial'>
-              <button>Como funciona</button>
-              <button>Faça seu cadastro</button>
-            </div>
+          <h3>Não sabe como falar com seu filho sobre educação financeira?</h3>
+          <h3> O Pigbank pode te ajudar!</h3>
+        </div>
+
+        <div className='botaoInicial'>
+          <button>Como funciona</button>
+          <button>Faça seu cadastro</button>
         </div>
       </div>
+      
     );
   }
 }
