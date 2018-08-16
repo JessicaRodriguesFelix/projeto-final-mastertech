@@ -3,6 +3,8 @@ import './ModalCadastrarObjetivos.css';
 import Modal from '../modal/Modal'
 import InputComLabel from '../inputcomlabel/InputComLabel';
 import BotaoBranco from '../botaobranco/BotaoBranco.';
+import BotaoRoxo from '../botaoroxo/BotaoRoxo';
+
 
 
 class ModalCadastrarObjetivos extends Component {
@@ -17,17 +19,14 @@ class ModalCadastrarObjetivos extends Component {
             <p className="criarObjetivoFrase">Vamos criar o primeiro objetivo do rafa!
                 Vamos começar preenchendo as informações abaixo:</p>
 
-              <InputComLabel label="Objetivo *"/>
-              <InputComLabel label="Valor Do Objetivo *"/>
-              <InputComLabel label="Data Final Para Atingir o Objetivo*"/>
+            <InputComLabel label="Objetivo *" />
+            <InputComLabel label="Valor Do Objetivo *" />
+            <InputComLabel label="Data Final Para Atingir o Objetivo*" />
 
-              <BotaoBranco conteudo="Cancelar" onCloseListener={this.props.onCloseListener}/>
+            <div className='botoes'>
+              <BotaoBranco conteudo="Cancelar" onCloseListener={this.props.onCloseListener} />
 
-
-            <div>
-              <button className="botaoSalvar" onClick={this.props.onCloseListener}>
-                Salvar
-            </button>
+              <BotaoRoxo conteudo="Salvar" onCloseListener={this.props.onCloseListener} />
             </div>
 
 
