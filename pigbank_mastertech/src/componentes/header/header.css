@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: url("crianca-exemplo.jpg");
+    background-image: url("crianca-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

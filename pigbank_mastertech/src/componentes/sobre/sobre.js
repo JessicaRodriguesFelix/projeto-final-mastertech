@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../sobre/sobre.css';
 import img1 from '../sobre/poupanca-menino.jpeg';
-import img2 from '../sobre/poupanca-menino2.jpeg';
+import img2 from '../sobre/poupanca-menino-3.png';
 
 
 class Sobre extends Component {

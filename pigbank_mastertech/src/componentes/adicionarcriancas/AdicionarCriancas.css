@@ -1,0 +1,11 @@
+.botaoAdicionarCrianca {
+    font-size: 10pt;
+    color: #7b1fa2;
+    border: 1px dotted grey;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 40vw;
+    height: 5vw;
+    cursor: pointer;
+    border-color: #7b1fa2;
+}

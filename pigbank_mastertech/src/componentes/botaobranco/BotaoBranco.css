@@ -1,0 +1,21 @@
+.estiloBotaoBranco{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: transparent;
+    color: #7b1fa2;
+    border: 1px solid #7b1fa2;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.botaoBranco{
+    cursor: pointer;
+
+
+}

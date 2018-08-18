@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './MaeListaFilhos.css'; 
-
+import AdicionarCriancas from '../adicionarcriancas/AdicionarCriancas';
+import ListaFilhos from '../listafilhos/ListaFilhos';
 
 
 class MaeListaFilhos extends Component {
@@ -8,20 +9,9 @@ class MaeListaFilhos extends Component {
     return (
       <div>
 
+        <AdicionarCriancas/>
 
-
-        <section className="lista">
-          <ul>
-            <li>
-              <button>ANA</button>
-            </li>
-            <li>
-              <button>JOANA</button>
-            </li>
-          </ul>
-        </section>
-        
-        
+        <ListaFilhos/>
         
       </div>
     );

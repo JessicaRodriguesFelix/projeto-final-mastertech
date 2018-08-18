@@ -3,6 +3,11 @@ import '../header/header.css';
 import logo from '../header/Logo.png';
 
 class Header extends Component {
+
+  openContainer(){
+    this.props.history.push('/conteudo');
+  }
+
   render() {
     return (
       <div className='telaInicial'>
@@ -25,7 +30,6 @@ class Header extends Component {
           <button>Faça seu cadastro</button>
         </div>
       </div>
-      
     );
   }
 }
