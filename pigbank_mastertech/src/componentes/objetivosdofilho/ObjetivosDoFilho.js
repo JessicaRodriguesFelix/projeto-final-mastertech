@@ -6,8 +6,8 @@ import ModalCadastrarObjetivos from '../modalcadastrarobjetivos/ModalCadastrarOb
 
 
 class ObjetivosDoFilho extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = { mostrarTarefasModal: false };
   }
 
@@ -24,7 +24,7 @@ class ObjetivosDoFilho extends Component {
       <div>
          <div className="CadastrarObjetivosFilho">
 
-            <p> ###### ainda não tem nenhum objetivo.
+            <p> {this.props.filho.nome} ainda não tem nenhum objetivo.
                 Que tal criar um agora?</p>
            </div>
 

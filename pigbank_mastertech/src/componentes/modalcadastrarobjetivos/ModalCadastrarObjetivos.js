@@ -24,9 +24,9 @@ class ModalCadastrarObjetivos extends Component {
             <InputComLabel label="Data Final Para Atingir o Objetivo*" />
 
             <div className='botoes'>
-              <BotaoBranco conteudo="Cancelar" onCloseListener={this.props.onCloseListener} />
+              <BotaoBranco conteudo="Cancelar" onClickListener={this.props.onCloseListener} />
 
-              <BotaoRoxo conteudo="Salvar" onCloseListener={this.props.onCloseListener} />
+              <BotaoRoxo conteudo="Salvar" onClickListener={this.props.onCloseListener} />
             </div>
 
 

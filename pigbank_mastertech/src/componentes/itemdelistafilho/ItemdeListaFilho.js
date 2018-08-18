@@ -4,8 +4,8 @@ import './ItemDeListaFilho.css';
 class ItemDeListaFilho extends Component {
   render() {
     return (
-      <div className="ItemDeListaFilho">
-        <h1>luciana alves </h1>  
+      <div onClick={() => this.props.onItemClickListener(this.props.indice)} className="ItemDeListaFilho">
+        <h1>{this.props.filho.nome} </h1>
       </div>
     );
   }

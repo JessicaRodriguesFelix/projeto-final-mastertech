@@ -8,6 +8,16 @@ import BotaoRoxo from '../botaoroxo/BotaoRoxo';
 
 
 class ModalCadastrarFilho extends Component {
+
+  salvarFilho() {
+
+    const nome = document.getElementById("nome").value
+    this.props.onSaveListener({
+      nome
+    })
+
+
+  }
   render() {
     return this.props.deveAparece ? (
       <Modal>
@@ -20,13 +30,13 @@ class ModalCadastrarFilho extends Component {
 
             <InputComLabel label="Quem você vai ensinar a conquistar sonhos pela educação financeira? *" />
             <InputComLabel label="Como você é chamado por ele? *" />
-            <InputComLabel label="Nome *" />
-            <InputComLabel label="Data De Nascimento*"/>
+            <InputComLabel label="Nome *" inputId="nome" />
+            <InputComLabel label="Data De Nascimento*" />
 
             <div className='botoes'>
-              <BotaoBranco conteudo="Cancelar" onCloseListener={this.props.onCloseListener} />
+              <BotaoBranco conteudo="Cancelar" onClickListener={this.props.onCloseListener} />
 
-              <BotaoRoxo conteudo="Salvar" onCloseListener={this.props.onCloseListener} />
+              <BotaoRoxo conteudo="Salvar" onClickListener={this.salvarFilho.bind(this)} />
             </div>
 
 

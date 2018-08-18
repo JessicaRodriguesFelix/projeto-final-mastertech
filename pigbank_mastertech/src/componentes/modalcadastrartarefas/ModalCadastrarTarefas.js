@@ -27,9 +27,9 @@ Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que
             <InputComLabel label="Periodicidade*" />
 
             <div className='botoes'>
-              <BotaoBranco conteudo="Cancelar" onCloseListener={this.props.onCloseListener} />
+              <BotaoBranco conteudo="Cancelar" onClickListener={this.props.onCloseListener} />
 
-              <BotaoRoxo conteudo="Salvar" onCloseListener={this.props.onCloseListener} />
+              <BotaoRoxo conteudo="Salvar" onClickListener={this.props.onCloseListener} />
             </div>
 
 

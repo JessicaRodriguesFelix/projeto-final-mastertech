@@ -10,7 +10,7 @@ class InputComLabel extends Component {
             <div className="InputComLabel">
                 <label>{this.props.label}</label>
                 <div>
-                    <input className="caixaDeTextoTransparente" type="text"></input>
+                    <input id={this.props.inputId} className="caixaDeTextoTransparente" type="text"></input>
                 </div>
             </div>
         );
