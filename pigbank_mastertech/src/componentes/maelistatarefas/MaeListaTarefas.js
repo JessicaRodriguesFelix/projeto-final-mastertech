@@ -3,6 +3,7 @@ import './MaeListaTarefas.css';
 import AdicionarTarefas from '../adicionartarefas/AdicionarTarefas';
 import ListaTarefas from '../listatarefas/ListaTarefas';
 import ModalCadastrarObjetivos from '../modalcadastrarobjetivos/ModalCadastrarObjetivos';
+import ModalCadastrarTarefas from '../modalcadastrartarefas/ModalCadastrarTarefas';
 
 
 class MaeListaTarefas extends Component {
@@ -36,7 +37,7 @@ Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que
 
         <ListaTarefas />
 
-        <ModalCadastrarObjetivos deveAparece={this.state.mostrarTarefasModal}
+        <ModalCadastrarTarefas deveAparece={this.state.mostrarTarefasModal}
           onCloseListener={this.fecharModal.bind(this)} />
       </div>
     );

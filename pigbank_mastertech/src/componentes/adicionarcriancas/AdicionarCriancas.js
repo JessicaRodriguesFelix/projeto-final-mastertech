@@ -5,10 +5,11 @@ class AdicionarCriancas extends Component {
   render() {
     return (
       <div>
-        <button className="botaoAdicionarCrianca">
+        <button onClick={this.props.onClickListener} className="botaoAdicionarCrianca">
           <span> + </span> adicionar criança 
         </button>        
       </div>
+      
     );
   }
 }

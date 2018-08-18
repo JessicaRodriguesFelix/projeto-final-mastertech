@@ -1,0 +1,25 @@
+.criarTarefa { 
+    font-size: 15pt;
+    border-radius: 5px;
+    border: transparent;
+    margin: 0px auto;
+    padding: 10px ;
+    
+
+} 
+ .criarTarefaFrase {
+    font-size: 10pt;
+    color: black;
+    background-color: rgb(185, 179, 179);
+    border: transparent;
+    border-radius: 15px;
+    width: 30vw;
+    height: 3vw;
+  
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

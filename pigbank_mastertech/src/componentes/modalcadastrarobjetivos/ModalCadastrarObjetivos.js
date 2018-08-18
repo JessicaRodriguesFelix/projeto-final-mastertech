@@ -15,7 +15,7 @@ class ModalCadastrarObjetivos extends Component {
           <div className='modalLayout'>
 
 
-            <h1 className="criarObjetivoTitulo"> Novo Objetivo</h1>
+            <h1 className="criarObjetivoTitulo"> Novo Objetivo </h1>
             <p className="criarObjetivoFrase">Vamos criar o primeiro objetivo do rafa!
                 Vamos começar preenchendo as informações abaixo:</p>
 

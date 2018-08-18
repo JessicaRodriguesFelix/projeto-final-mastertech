@@ -4,6 +4,8 @@ import SelecionadorDeOpcoes from '../selecionadordeopcoes/SelecionadorDeOpcoes'
 import MaeListaFilhos from '../maelistafilhos/MaeListaFilhos'
 import { Switch, Route } from 'react-router-dom'
 import MaeListaTarefas from '../maelistatarefas/MaeListaTarefas';
+import ObjetivosDoFilho from '../objetivosdofilho/ObjetivosDoFilho';
+import Abas from '../abas/Abas';
 
 
 class Container extends Component {
@@ -12,7 +14,8 @@ class Container extends Component {
       <Switch>
         <Route exact path='/conteudo' component={SelecionadorDeOpcoes} />
         <Route exact path='/conteudo/lista-filhos' component={MaeListaFilhos} />
-        <Route path='/conteudo/lista-filhos/filho' component={MaeListaTarefas} />
+        <Route exact path='/conteudo/lista-filhos/filho' component={Abas} />
+        <Route path='/conteudo/lista-filhos/filho/objetivo' component={ObjetivosDoFilho} />
       </Switch>
     );
   }

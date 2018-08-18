@@ -7,11 +7,19 @@
     height: 5vw;
     cursor: pointer;
     margin: 5px auto;
-    display: table;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkboxEstilo{
+    padding-left: 20px; 
     
-    }
+}
+.tarefasRealizadas{
+    padding-left: 50px;
     
-    .ItemDeListaFilho h1{
-        display:table-cell; 
-        vertical-align:middle;
-    }
+    
+}
+    
+  
