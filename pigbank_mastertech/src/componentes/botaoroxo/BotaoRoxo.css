@@ -1,0 +1,19 @@
+.estiloBotaoRoxo{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: #7b1fa2;
+    color: white;
+    border: 1px solid transparent;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botaoRoxo{
+    cursor: pointer;
+}
+.estiloBotaoRoxo:hover{
+    background-color: #ad18ec;
+}

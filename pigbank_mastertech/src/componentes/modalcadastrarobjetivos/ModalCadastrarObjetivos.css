@@ -19,19 +19,12 @@
   
 }
 
-
-.botaoSalvar{
-    font-size: 10pt;
-    border-radius: 23px;
-    background-color: #7b1fa2;
-    color: white;
-    border: transparent;
-    width: 120px;
-    height: 40px;
-    cursor: pointer;
-
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
-.botaoSalvar:hover{
-    background-color: #ad18ec;
-}
+
+
+
 
