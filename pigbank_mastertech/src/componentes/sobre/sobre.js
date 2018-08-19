@@ -7,8 +7,8 @@ import img2 from '../sobre/poupanca-menino-3.png';
 class Sobre extends Component {
   render() {
     return (
-        <section className='sobre'>
-            <div className='chamadaSobre'>
+        <section className='sectionSobre'>
+            <div className='paragrafoSobre'>
                 <p>Falar sobre dinheiro com as crianças nunca foi tão fácil :)</p>
                 <p>Mostre a elas como podem realizar pequenos e grandes sonhos ao definirem objetivos e se dedicarem a ele.</p>
             </div>
@@ -16,14 +16,14 @@ class Sobre extends Component {
             <div className='vantagensReunidas'>
                 <div className='vantagens'>
                     <img className='imgSobre' src={img1} alt="menino-1"/>
-                    <h3 className='subtitulo'>Valores</h3>
-                    <p className='paragrafo'>Com tarefas simples, a criança descobre quanto precisou fazer para alcançar determinado objetivo, valorizando suas conquistas.</p>
+                    <h3 className='subtituloVantagens'>Valores</h3>
+                    <p className='paragrafoVantagens'>Com tarefas simples, a criança descobre quanto precisou fazer para alcançar determinado objetivo, valorizando suas conquistas.</p>
                 </div>
 
                 <div className='vantagens'>
                     <img className='imgSobre' src={img2} alt="menino-2"/>
-                    <h3 className='subtitulo'>Consumo consciente</h3>
-                    <p className='paragrafo'>Ensine o valor das coisas. Ajude-o a consumir de forma planejada, em busca de realização de sonhos.</p>
+                    <h3 className='subtituloVantagens'>Consumo consciente</h3>
+                    <p className='paragrafoVantagens'>Ensine o valor das coisas. Ajude-o a consumir de forma planejada, em busca de realização de sonhos.</p>
                 </div>
             </div>
         </section>

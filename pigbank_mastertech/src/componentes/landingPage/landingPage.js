@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../landingPage/landingPage.css';
 import Header from '../header/header';
 import Sobre from '../sobre/sobre';
+import ComoFunciona from '../comoFunciona/comoFunciona';
 
 class LandingPage extends Component {
 
@@ -14,6 +15,7 @@ class LandingPage extends Component {
       <div>
         <Header/>
         <Sobre/>
+        <ComoFunciona/>
       </div>
     );
   }

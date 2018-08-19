@@ -1,22 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans');
 
-body{
+.sectionSobre{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
-    overflow-y: scroll;
     background-color: #7f46d9;
-}
-
-.sobre{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100vh;
-    margin: 0;
 }
 
-.chamadaSobre{
+.paragrafoSobre{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +30,7 @@ body{
     
 }
 
-.subtitulo{
+.subtituloVantagens{
     font-size: 20pt;
     color: #ffffff;
     font-family: 'Amatic SC', cursive;
@@ -54,6 +48,6 @@ body{
     height: 200px;
 }
 
-.paragrafo{
+.paragrafoVantagens{
     margin-left: 10vw;
 }

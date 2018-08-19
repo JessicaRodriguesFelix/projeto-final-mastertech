@@ -11,13 +11,13 @@ class Header extends Component {
   render() {
     return (
       <div className='telaInicial'>
-        <header>
+        <header className='headerMenu'>
           <img className='logo' src={logo} alt="Logo"/>
-          <a href="">O que é</a>
-          <a href="">Como funciona</a>
-          <a href="">Quero usar</a>
-          <a href="">Quem somos</a>
-          <a href="">Contato</a>
+          <a className= 'menu' href="">O que é</a>
+          <a className= 'menu' href="">Como funciona</a>
+          <a className= 'menu' href="">Quero usar</a>
+          <a className= 'menu' href="">Quem somos</a>
+          <a className= 'menu' href="">Contato</a>
         </header>
 
         <div className='chamada'>
@@ -25,7 +25,7 @@ class Header extends Component {
           <h3> O Pigbank pode te ajudar!</h3>
         </div>
 
-        <div className='botaoInicial'>
+        <div className='botaoInicialHeader'>
           <button>Como funciona</button>
           <button>Faça seu cadastro</button>
         </div>
