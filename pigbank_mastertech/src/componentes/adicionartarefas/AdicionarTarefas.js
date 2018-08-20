@@ -8,8 +8,10 @@ class AdicionarTarefas extends Component {
       <div>
         <button onClick={this.props.onClickListener} className="botaoAdicionarTarefa">
           <span> + </span> adicionar tarefa 
+         
         </button>        
       </div>
+
     );
   }
 }

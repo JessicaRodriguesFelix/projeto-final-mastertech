@@ -5,6 +5,7 @@ import ObjetivosDoFilho from '../objetivosdofilho/ObjetivosDoFilho';
 import MaeListaTarefas from '../maelistatarefas/MaeListaTarefas';
 import filhosService from '../../services/filhosService'
 
+
 class Abas extends Component {
     constructor(props) {
         super(props);
@@ -25,7 +26,7 @@ class Abas extends Component {
                     <ObjetivosDoFilho filho={this.state.filho} />
                 </TabPanel>
                 <TabPanel>
-                    <MaeListaTarefas />
+                    <MaeListaTarefas filho={this.state.filho}/>
                 </TabPanel>
             </Tabs>
         );

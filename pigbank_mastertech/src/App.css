@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 .App {
   text-align: center;
 }
 
 
 .App-header {
-  background-color:#ba54e6;
-  height: 150px;
+  background-color:transparent;
+  height: 50px;
   padding: 20px;
-  color:white;
+  color: #fb837e;
+  margin: 8px auto;
+  font-family: 'Comfortaa', cursive;
 }
-
+/* .bodyTelas{
+  background-color: #7b1fa2;
+} */
 
 
 

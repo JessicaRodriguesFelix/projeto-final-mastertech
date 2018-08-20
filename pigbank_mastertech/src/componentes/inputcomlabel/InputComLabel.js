@@ -12,6 +12,7 @@ class InputComLabel extends Component {
                 <div>
                     <input id={this.props.inputId} className="caixaDeTextoTransparente" type="text"></input>
                 </div>
+                
             </div>
         );
     }

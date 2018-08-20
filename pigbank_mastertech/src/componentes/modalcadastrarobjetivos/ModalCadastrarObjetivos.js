@@ -8,6 +8,14 @@ import BotaoRoxo from '../botaoroxo/BotaoRoxo';
 
 
 class ModalCadastrarObjetivos extends Component {
+
+  salvarObjetivo(){
+    const item = document.getElementById("item").value
+    this.props.onSaveListener({
+      item
+    })
+    }
+
   render() {
     return this.props.deveAparece ? (
       <Modal>
@@ -19,14 +27,14 @@ class ModalCadastrarObjetivos extends Component {
             <p className="criarObjetivoFrase">Vamos criar o primeiro objetivo do rafa!
                 Vamos começar preenchendo as informações abaixo:</p>
 
-            <InputComLabel label="Objetivo *" />
+            <InputComLabel label="Objetivo *" inputId="item" />
             <InputComLabel label="Valor Do Objetivo *" />
             <InputComLabel label="Data Final Para Atingir o Objetivo*" />
 
             <div className='botoes'>
               <BotaoBranco conteudo="Cancelar" onClickListener={this.props.onCloseListener} />
 
-              <BotaoRoxo conteudo="Salvar" onClickListener={this.props.onCloseListener} />
+              <BotaoRoxo conteudo="Salvar" onClickListener={this.salvarObjetivo.bind(this)} />
             </div>
 
 

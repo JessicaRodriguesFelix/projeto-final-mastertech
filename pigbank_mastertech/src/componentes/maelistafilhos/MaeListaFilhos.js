@@ -10,15 +10,15 @@ import filhosSevice from '../../services/filhosService';
 class MaeListaFilhos extends Component {
   constructor(props) {
     super(props);
-    this.state = { mostrarTarefasModal: false };
+    this.state = { mostrarFilhosModal: false };
   }
 
-  adicionarTarefasClickado() {
-    this.setState({ mostrarTarefasModal: true });
+  adicionarFilhoClickado() {
+    this.setState({ mostrarFilhosModal: true });
   }
 
   fecharModal() {
-    this.setState({ mostrarTarefasModal: false });
+    this.setState({ mostrarFilhosModal: false });
   }
 
   salvarFilho(filho) {
@@ -36,11 +36,11 @@ class MaeListaFilhos extends Component {
     return (
       <div>
 
-        <AdicionarCriancas onClickListener={this.adicionarTarefasClickado.bind(this)} />
+        <AdicionarCriancas onClickListener={this.adicionarFilhoClickado.bind(this)} />
 
         <ListaFilhos listaDeFilhos={filhosSevice.listFilhos()} onItemClickListener={this.onItemClicked.bind(this)} />
 
-        <ModalCadastrarFilho deveAparece={this.state.mostrarTarefasModal}
+        <ModalCadastrarFilho deveAparece={this.state.mostrarFilhosModal}
           onCloseListener={this.fecharModal.bind(this)} onSaveListener={this.salvarFilho.bind(this)} />
       </div>
 

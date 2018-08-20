@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './ListaFilhos.css';
-import ItemDeListaFilho from '../itemdelistafilho/ItemdeListaFilho';
+import ItemDeListaFilho from '../itemdelistafilho/ItemDeListaFilho';
 
 class ListaFilhos extends Component {
   transformarFilhoParaItem(filho, indice) {

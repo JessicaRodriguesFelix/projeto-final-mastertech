@@ -5,7 +5,8 @@ class ItemDeListaObjetivo extends Component {
   render() {
     return (
       <div className="ObjetivosaRealizar">
-        <h1> comprar Patins </h1>  
+        
+        <h1>{this.props.objetivo.item} </h1>  
       </div>
     );
   }

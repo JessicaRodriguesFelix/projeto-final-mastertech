@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import './MaeListaTarefas.css';
 import AdicionarTarefas from '../adicionartarefas/AdicionarTarefas';
 import ListaTarefas from '../listatarefas/ListaTarefas';
-import ModalCadastrarObjetivos from '../modalcadastrarobjetivos/ModalCadastrarObjetivos';
 import ModalCadastrarTarefas from '../modalcadastrartarefas/ModalCadastrarTarefas';
+import tarefasService from '../../services/tarefasService';
+
 
 
 class MaeListaTarefas extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = { mostrarTarefasModal: false };
   }
 
@@ -19,6 +20,15 @@ class MaeListaTarefas extends Component {
   fecharModal() {
     this.setState({ mostrarTarefasModal: false });
   }
+  salvarTarefa(tarefa) {
+    tarefasService.addTarefa(tarefa)
+    this.fecharModal()
+  }
+  onItemClicked(index) {
+    const listaDeTarefas = tarefasService.listTarefas();
+    const tarefa = listaDeTarefas[index]
+    this.props.history.push("/conteudo/lista-filhos/" + tarefa .nome);
+  }
 
   render() {
     return (
@@ -26,7 +36,7 @@ class MaeListaTarefas extends Component {
 
         <div className="ListaDeTarefasMae">
 
-          <p> Crie tarefas simples para criar hábitos importantes para a ###### e que transmitam valores para sua família.
+          <p> Crie tarefas simples para criar hábitos importantes para a {this.props.filho.nome} e que transmitam valores para sua família.
 
 Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que não estejam na lista, veja:</p>
 
@@ -35,10 +45,10 @@ Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que
 
         <AdicionarTarefas onClickListener={this.adicionarTarefasClickado.bind(this)} />
 
-        <ListaTarefas />
+        <ListaTarefas listaDeTarefas={tarefasService.listTarefas()} onItemClickListener={this.onItemClicked.bind(this)} /> 
 
         <ModalCadastrarTarefas deveAparece={this.state.mostrarTarefasModal}
-          onCloseListener={this.fecharModal.bind(this)} />
+          onCloseListener={this.fecharModal.bind(this)}  onSaveListener={this.salvarTarefa.bind(this)} />
       </div>
     );
   }

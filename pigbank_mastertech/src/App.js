@@ -13,6 +13,9 @@ class App extends Component {
         <Route exact path='/' component={Header} />
         <Route path='/conteudo' component={InternalApp} />
       </Switch>
+
+      // <div className="bodyTelas" >
+      // </div>
        
     );
   }
