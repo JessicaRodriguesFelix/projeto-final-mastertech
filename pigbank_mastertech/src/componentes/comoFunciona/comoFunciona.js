@@ -5,8 +5,8 @@ import imgComoFunciona from '../comoFunciona/exemplo.png';
 class comoFunciona extends Component {
   render() {
     return (
-        <section className='sectionComoFunciona'>
-            <div className='listaComofunciona'>
+        <section className='sectionComoFunciona' id="comoFunciona">
+        <div className='listaComofunciona'>
                 <h3 className= 'tituloComofunciona'>Como o PigBank funciona?</h3>
             </div>
 

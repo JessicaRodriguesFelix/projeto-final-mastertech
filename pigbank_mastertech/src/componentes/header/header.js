@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import Scrollchor from 'react-scrollchor';
 import '../header/header.css';
+import BotaoRoxo from '../botaoroxo/BotaoRoxo';
+import BotaoBranco from '../botaobranco/BotaoBranco.'
 import logo from '../header/Logo.png';
 
 class Header extends Component {
@@ -13,8 +16,8 @@ class Header extends Component {
       <div className='telaInicial'>
         <header className='headerMenu'>
           <img className='logo' src={logo} alt="Logo"/>
-          <a className= 'menu' href="">O que é</a>
-          <a className= 'menu' href="">Como funciona</a>
+          <a className= 'menu' href="#sobre"><Scrollchor className="scroll" to="sobre"> O que é </Scrollchor></a>
+          <a className= 'menu' href="#comoFunciona"><Scrollchor className="scroll" to="comoFunciona"> Como funciona </Scrollchor></a>
           <a className= 'menu' href="">Quero usar</a>
           <a className= 'menu' href="">Quem somos</a>
           <a className= 'menu' href="">Contato</a>
@@ -26,8 +29,8 @@ class Header extends Component {
         </div>
 
         <div className='botaoInicialHeader'>
-          <button>Como funciona</button>
-          <button>Faça seu cadastro</button>
+          <BotaoBranco/>
+          <BotaoRoxo/>
         </div>
       </div>
     );

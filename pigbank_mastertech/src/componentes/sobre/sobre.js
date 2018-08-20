@@ -7,7 +7,7 @@ import img2 from '../sobre/poupanca-menino-3.png';
 class Sobre extends Component {
   render() {
     return (
-        <section className='sectionSobre'>
+        <section className='sectionSobre' id="sobre">
             <div className='paragrafoSobre'>
                 <p>Falar sobre dinheiro com as crianças nunca foi tão fácil :)</p>
                 <p>Mostre a elas como podem realizar pequenos e grandes sonhos ao definirem objetivos e se dedicarem a ele.</p>
