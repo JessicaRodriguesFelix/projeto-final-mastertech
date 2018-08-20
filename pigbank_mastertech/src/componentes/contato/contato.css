@@ -1,0 +1,57 @@
+.contato-footer{
+    background-color: #38006b;
+    height: 250px;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-footer{
+  display: block;
+}
+
+.titulo{
+    display: block;
+    padding: 3px;
+}
+
+.imglogo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    display: block;
+    padding: 5px;
+}
+
+.fone{
+    display: block;
+    padding: 5px;
+}
+
+.rede:hover{
+    /*cursor: pointer;*/
+    transform: translateY(-18px);
+    box-shadow: 4px 30px 16px 0px (50,50,50, 0.45);
+}
+
+.rede{
+    width: 48px;
+    height:48px;
+    padding-left:5px;
+    padding-top: 10px;
+    transition: all 0.4s ease-out;
+}
+
+.rede-social{
+    display: flex;
+    justify-content: center;
+}
