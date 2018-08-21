@@ -36,9 +36,7 @@ class MaeListaTarefas extends Component {
 
         <div className="ListaDeTarefasMae">
 
-          <p> Crie tarefas simples para criar hábitos importantes para a {this.props.filho.nome} e que transmitam valores para sua família.
-
-Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que não estejam na lista, veja:</p>
+          <p> Crie tarefas simples para criar hábitos importantes para a {this.props.filho.nome} e que transmitam valores para sua família.</p>
 
 
         </div>

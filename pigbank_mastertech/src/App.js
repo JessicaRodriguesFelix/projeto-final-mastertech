@@ -5,7 +5,6 @@ import Header from './componentes/header/header';
 import { Switch, Route } from 'react-router-dom'
 
 
-
 class App extends Component {
   render() {
     return (
@@ -13,9 +12,9 @@ class App extends Component {
         <Route exact path='/' component={Header} />
         <Route path='/conteudo' component={InternalApp} />
       </Switch>
+      
 
-      // <div className="bodyTelas" >
-      // </div>
+      
        
     );
   }

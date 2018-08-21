@@ -12,10 +12,17 @@
     justify-content: center;
     
 
+    
+
 
 }
 .botaoBranco{
     cursor: pointer;
 
 
+}
+.estiloBotaoBranco:hover{
+    background-color: #C84B56;
+    color:white;
+    border: 1px solid white;
 }

@@ -34,8 +34,8 @@
   }
   
   .round input[type="checkbox"]:checked + label {
-    background-color: #66bb6a;
-    border-color: #66bb6a;
+    background-color: #7A9B15;
+    border-color: #7A9B15;
   }
   
   .round input[type="checkbox"]:checked + label:after {

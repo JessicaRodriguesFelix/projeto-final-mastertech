@@ -26,9 +26,7 @@ class ModalCadastrarTarefas extends Component {
 
 
             <h1 className="criarTarefa"> Nova Tarefa </h1>
-            <p className="criarTarefaFrase">Crie tarefas simples para criar hábitos importantes para o ##### e que transmitam valores para sua família.
-
-Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que não estejam na lista, veja:</p>
+            <p className="criarTarefaFrase">Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que não estejam na lista, veja:</p>
 
 
             <InputComOpcoes label=" Adicionar Tarefa (lista com opcoes)*" inputId="tarefaPredefinidas" />

@@ -10,10 +10,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px; 
 }
 .botaoRoxo{
     cursor: pointer;
 }
 .estiloBotaoRoxo:hover{
-    background-color: #ad18ec;
+    background-color: #7A9B15;
 }
+

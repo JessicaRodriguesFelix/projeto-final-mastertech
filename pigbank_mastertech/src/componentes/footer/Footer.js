@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import download from '../footer/download.jpg';
 
 class Footer extends Component {
   render() {
     return (
-        <div className="App">
-        <footer className="footer">
-        <p>gsgsgs</p> 
+        <div>
+        <footer className="footer-telas">
+        <img className='download'  src={download} alt="Download" />
+      
+        
         </footer>
           
      
