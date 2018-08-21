@@ -1,0 +1,9 @@
+.containerInterno{
+    max-width: 920px;
+    min-height: 400px;
+    margin: 20px auto;
+}
+
+.corpoDoContainer{
+    width: 100%;
+}
