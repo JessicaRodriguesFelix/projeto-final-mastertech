@@ -29,8 +29,8 @@ class Header extends Component {
         </div>
 
         <div className='botaoInicialHeader'>
-          <BotaoBranco/>
-          <BotaoRoxo/>
+          <button className='botaoComoFunciona'><Scrollchor id='botaoIdComoFunciona' to="comoFunciona">Como funciona</Scrollchor></button>
+          <button className='botaoCadastroHeader'>Faça seu cadastro</button>
         </div>
       </div>
     );

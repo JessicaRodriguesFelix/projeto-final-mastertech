@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../sobre/sobre.css';
-import img1 from '../sobre/poupanca-menino.jpeg';
+import img1 from '../sobre/poupanca-menino-2.png';
 import img2 from '../sobre/poupanca-menino-3.png';
 
 

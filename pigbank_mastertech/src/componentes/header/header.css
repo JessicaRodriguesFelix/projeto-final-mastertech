@@ -23,16 +23,15 @@
 }
 
 .scroll{
-    text-decoration: none;
-    color: #7c1fa3;
+    color: white;
+    text-decoration-line: none;
     font-size: 15pt;
 }
 
 
-
 .scroll:hover{
     text-decoration: underline;
-    color: #00701a;
+    color: #7c1fa3;
     font-size: 17pt;
     font-weight: bold;
 }
@@ -61,4 +60,28 @@
     width: 30%;
     align-self: center;
     justify-content: space-evenly;
+}
+
+.botaoCadastroHeader, .botaoComoFunciona{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: #7c1fa3;
+    color: white;
+    border: 1px solid transparent;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.botaoCadastroHeader:hover , .botaoComoFunciona:hover{
+    background-color: #af52d5;
+}
+
+#botaoIdComoFunciona{
+    color: white;
+    text-decoration-line: none;
 }

@@ -31,9 +31,8 @@
 }
 
 .subtituloVantagens{
-    font-size: 20pt;
+    font-size: 15pt;
     color: #ffffff;
-    font-family: 'Amatic SC', cursive;
     font-weight: bold;
 }
 
@@ -44,8 +43,8 @@
 }
 
 .imgSobre{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 250px;
 }
 
 .paragrafoVantagens{
