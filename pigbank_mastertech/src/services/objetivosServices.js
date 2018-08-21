@@ -1,25 +1,17 @@
-const objetivos = [
-    {
-        item: 'bola'
-    }
-]
+import armazenamento from './armazenamento'
+import filhosService from './filhosService'
 
-function addObjetivo(objetivo) {
-    objetivos.push(objetivo)
+function addObjetivo(filho, objetivo) {
+    filho.objetivos.push(objetivo)
+    armazenamento.atualizaFilho(filho)
 }
 
-function listObjetivos() {
-    return objetivos
-}
-
-function buscaObjetivoPeloItem(item) {
-    return objetivos.find(function (elem) {
-        return elem.item === item
-    })
+function listObjetivos(filho) {
+    const filhoEncontrado = filhosService.buscaFilhoPeloNome(filho.nome)
+    return filhoEncontrado.objetivos
 }
 
 export default {
     addObjetivo: addObjetivo,
-    listObjetivos: listObjetivos,
-    buscaObjetivoPeloItem: buscaObjetivoPeloItem
+    listObjetivos: listObjetivos
 };

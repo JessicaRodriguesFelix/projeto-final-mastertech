@@ -1,25 +1,17 @@
-const tarefas = [
-    {
-        itens: 'bola'
-    }
-]
+import armazenamento from './armazenamento'
+import filhosService from './filhosService'
 
-function addTarefa(tarefa) {
-    tarefas.push(tarefa)
+function addTarefa(filho, tarefa) {
+    filho.tarefas.push(tarefa)
+    armazenamento.atualizaFilho(filho)
 }
 
-function listTarefas() {
-    return tarefas
-}
-
-function buscaTarefaPeloItens(itens) {
-    return tarefas.find(function (elem) {
-        return elem.itens === itens
-    })
+function listTarefas(filho) {
+    const filhoEncontrado = filhosService.buscaFilhoPeloNome(filho.nome)
+    return filhoEncontrado.tarefas
 }
 
 export default {
     addTarefa: addTarefa,
     listTarefas: listTarefas,
-    buscaTarefaPeloItens: buscaTarefaPeloItens
 };

@@ -1,19 +1,17 @@
-const filhos = [
-    {
-        nome: 'Maria Florzinha'
-    }
-]
+import armazenamento from './armazenamento'
 
 function addFilho(filho) {
-    filhos.push(filho)
+    filho.objetivos = []
+    filho.tarefas = []
+    armazenamento.addFilho(filho)
 }
 
 function listFilhos() {
-    return filhos
+    return armazenamento.listaDeFilhos()
 }
 
 function buscaFilhoPeloNome(nome) {
-    return filhos.find(function (elem) {
+    return armazenamento.listaDeFilhos().find(function (elem) {
         return elem.nome === nome
     })
 }

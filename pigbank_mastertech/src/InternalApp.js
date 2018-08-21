@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
 import Footer from './componentes/footer/Footer'
 import Container from './componentes/container/Container'
-import Header from './componentes/header/header';
-import { Switch, Route } from 'react-router-dom'
 
 
-class App extends Component {
+class InternalApp extends Component {
     render() {
         return (
             <div className="App">
@@ -20,4 +17,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default InternalApp;

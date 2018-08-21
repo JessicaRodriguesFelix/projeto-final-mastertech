@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './MaeListaFilhos.css';
 import AdicionarCriancas from '../adicionarcriancas/AdicionarCriancas';
 import ListaFilhos from '../listafilhos/ListaFilhos';
-import ModalCadastrarTarefas from '../modalcadastrartarefas/ModalCadastrarTarefas';
 import ModalCadastrarFilho from '../modalcadastrarfilho/ModalCadastrarFilho';
 import filhosSevice from '../../services/filhosService';
 

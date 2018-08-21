@@ -21,13 +21,13 @@ class MaeListaTarefas extends Component {
     this.setState({ mostrarTarefasModal: false });
   }
   salvarTarefa(tarefa) {
-    tarefasService.addTarefa(tarefa)
+    tarefasService.addTarefa(this.props.filho, tarefa)
     this.fecharModal()
   }
   onItemClicked(index) {
-    const listaDeTarefas = tarefasService.listTarefas();
+    const listaDeTarefas = tarefasService.listTarefas(this.props.filho);
     const tarefa = listaDeTarefas[index]
-    this.props.history.push("/conteudo/lista-filhos/" + tarefa .nome);
+    this.props.history.push("/conteudo/lista-filhos/" + tarefa.nome);
   }
 
   render() {
@@ -45,10 +45,10 @@ Tenho algumas sugestões de tarefas, mas você pode adicionar outras tarefas que
 
         <AdicionarTarefas onClickListener={this.adicionarTarefasClickado.bind(this)} />
 
-        <ListaTarefas listaDeTarefas={tarefasService.listTarefas()} onItemClickListener={this.onItemClicked.bind(this)} /> 
+        <ListaTarefas listaDeTarefas={tarefasService.listTarefas(this.props.filho)} onItemClickListener={this.onItemClicked.bind(this)} />
 
         <ModalCadastrarTarefas deveAparece={this.state.mostrarTarefasModal}
-          onCloseListener={this.fecharModal.bind(this)}  onSaveListener={this.salvarTarefa.bind(this)} />
+          onCloseListener={this.fecharModal.bind(this)} onSaveListener={this.salvarTarefa.bind(this)} />
       </div>
     );
   }
