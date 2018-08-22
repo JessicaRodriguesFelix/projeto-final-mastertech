@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './InternalFooter.css';
-import download from '../internalfooter/download.jpg';
+import download from './download.jpg';
 
 class InternalFooter extends Component {
     render() {

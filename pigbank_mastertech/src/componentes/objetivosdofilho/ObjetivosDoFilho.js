@@ -23,21 +23,27 @@ class ObjetivosDoFilho extends Component {
     this.fecharModal()
   }
 
+  deleteObjetivo(index) {
+    objetivosService.deleteObjetivo(this.props.filho, index)
+    this.setState({ mostrarObjetivosModal: false });
+  }
+
   render() {
     return (
       <div>
-         <div className="CadastrarObjetivosFilho">
+        <div className="CadastrarObjetivosFilho">
 
-            <p> {this.props.filho.nome} ainda não tem nenhum objetivo.
+          <p> {this.props.filho.nome} ainda não tem nenhum objetivo.
                 Que tal criar um agora?</p>
-           </div>
+        </div>
 
         <AdicionarObjetivo onClickListener={this.adicionarObjetivoClickado.bind(this)} />
 
-        <ListaObjetivos listaDeObjetivos={objetivosService.listObjetivos(this.props.filho)} /> 
+        <ListaObjetivos listaDeObjetivos={objetivosService.listObjetivos(this.props.filho)}
+          onItemClickListener={this.deleteObjetivo.bind(this)} />
 
         <ModalCadastrarObjetivos deveAparece={this.state.mostrarObjetivosModal}
-                onCloseListener={this.fecharModal.bind(this)} onSaveListener={this.salvarObjetivo.bind(this)} />
+          onCloseListener={this.fecharModal.bind(this)} onSaveListener={this.salvarObjetivo.bind(this)} />
       </div>
 
     );

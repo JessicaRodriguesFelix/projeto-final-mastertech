@@ -11,7 +11,13 @@ function listObjetivos(filho) {
     return filhoEncontrado.objetivos
 }
 
+function deleteObjetivo(filho, indiceDoObjetivo) {
+    filho.objetivos.splice(indiceDoObjetivo, 1)
+    armazenamento.atualizaFilho(filho)
+}
+
 export default {
     addObjetivo: addObjetivo,
-    listObjetivos: listObjetivos
+    listObjetivos: listObjetivos,
+    deleteObjetivo: deleteObjetivo
 };
