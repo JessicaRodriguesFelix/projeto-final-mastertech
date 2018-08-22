@@ -20,11 +20,16 @@
     justify-content: space-evenly;
     flex-direction: row;
     margin:-2vw;
+    text-decoration-line: none;
+}
+
+.menu{
+    text-decoration-line: none;
 }
 
 .scroll{
     color: white;
-    text-decoration-line: unset;
+    text-decoration-line: none;
     font-size: 15pt;
 }
 
