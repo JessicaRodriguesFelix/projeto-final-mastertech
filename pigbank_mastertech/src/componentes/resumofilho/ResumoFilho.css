@@ -1,14 +1,10 @@
-.telaResumoDoFilho{
+.telaResumoDoFilho {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-   
-
-
 }
 
-.meusObjetivos{
+.meusObjetivos {
     border: 1px solid #7b1fa2;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -17,20 +13,19 @@
     height: 60px;
     display: flex;
     align-items: center;
+    width: 40vw;
     justify-content: center;
-
-
 }
-.minhasTarefas{
+
+.minhasTarefas {
     border: 1px solid #7b1fa2;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
     font-size: 17pt;
     color: #7b1fa2;
     height: 60px;
+    width: 40vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
 }

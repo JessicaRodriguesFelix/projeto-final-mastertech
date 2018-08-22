@@ -25,7 +25,7 @@ class ObjetivosDoFilho extends Component {
 
   deleteObjetivo(index) {
     objetivosService.deleteObjetivo(this.props.filho, index)
-    this.setState({ mostrarObjetivosModal: false });
+    this.forceUpdate()
   }
 
   render() {
