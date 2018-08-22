@@ -9,11 +9,11 @@ class ItemDeListaTarefasFilho extends Component {
       <div className="checkboxEstilo">
         <CheckboxTarefas CheckID={this.props.indice}/>
       </div>
-      <div className="tarefasRealizadas">
          <h1>{this.props.tarefa.itens}</h1> 
-      </div>  
-
+      
       </div>
+
+    
     );
   }
 }

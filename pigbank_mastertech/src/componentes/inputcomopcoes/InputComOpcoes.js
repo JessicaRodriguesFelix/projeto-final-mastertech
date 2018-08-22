@@ -5,10 +5,6 @@ class InputComOpcoes extends Component {
 
     render() {
         return (
-
-
-
-
             <div className="InputComLabel">
                 <label>{this.props.label}</label>
                 <div>

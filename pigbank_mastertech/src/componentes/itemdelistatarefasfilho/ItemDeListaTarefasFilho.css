@@ -11,15 +11,17 @@
     flex-direction: row;
     align-items: center;
 }
+.tarefasFilho h1{
+    padding-left: 22px;
+    padding-top: 10px;
+}
 
-.checkboxEstilo{
-    padding-left: 20px; 
+.tarefasFilho .checkboxEstilo{
+    padding-left: 18px;
+
+     
     
 }
-.tarefasRealizadas{
-    padding-left: 50px;
-    
-    
-}
+
     
   
