@@ -9,36 +9,36 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    margin: 0;
 }
 
 .headerMenu{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
+    margin:-5vw;
 }
 
-.menu{
-    margin: 0;
-    text-decoration: none;
-    color: #7f46d9;
-    font-size: 20pt;
+.scroll{
+    color: white;
+    text-decoration-line: none;
+    font-size: 15pt;
 }
 
-.menu:hover{
+
+.scroll:hover{
     text-decoration: underline;
-    color: #009688;
-    font-size: 25pt;
+    color: #7c1fa3;
+    font-size: 17pt;
     font-weight: bold;
 }
 
 .logo{
-   /* margin-top: 30px; */
-   height: 67px;
-   width: 127px;
-   /* margin-left: 30px; */
+   height: 73px;
+   width: 108px;
 }
 
 .chamada{
@@ -48,15 +48,40 @@
     align-items: center;
     margin: 0;
     color: #ffffff;
-    font-size: 30pt;
+    font-size: 20pt;
     font-weight: bold;
 }
 
 .botaoInicialHeader{
-    color: aqua;
     display: flex;
-    border-radius: 23px;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    padding: 20px;
+    width: 30%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.botaoCadastroHeader, .botaoComoFunciona{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: #7c1fa3;
+    color: white;
+    border: 1px solid transparent;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.botaoCadastroHeader:hover , .botaoComoFunciona:hover{
+    background-color: #af52d5;
+}
+
+#botaoIdComoFunciona{
+    color: white;
+    text-decoration-line: none;
 }

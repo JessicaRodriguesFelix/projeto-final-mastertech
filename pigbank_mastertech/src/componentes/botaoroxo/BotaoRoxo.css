@@ -1,7 +1,7 @@
 .estiloBotaoRoxo{
     font-size: 10pt;
     border-radius: 23px;
-    background-color: #7b1fa2;
+    background-color: #7c1fa3;
     color: white;
     border: 1px solid transparent;
     width: 120px;
@@ -15,5 +15,5 @@
     cursor: pointer;
 }
 .estiloBotaoRoxo:hover{
-    background-color: #ad18ec;
+    background-color: #af52d5;
 }
