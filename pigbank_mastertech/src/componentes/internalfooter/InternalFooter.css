@@ -1,0 +1,17 @@
+.footer-telas img{
+    width: 180px;
+    height: 180px;
+    align-items: flex-end;
+    display: flex;
+    margin-left: 60px;
+
+}
+.footer-telas{
+    max-width: 920px;
+    min-height: 400px;
+    
+}
+.footerTamanhos{
+    width: 100%;
+
+}

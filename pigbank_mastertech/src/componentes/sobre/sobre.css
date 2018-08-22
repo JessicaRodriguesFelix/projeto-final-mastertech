@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans');
+
+.sectionSobre{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #7c1fa3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.paragrafoSobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 15pt;
+    font-weight: bold;
+    align-items: center;
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13pt;
+    color: #ffffff;
+    
+}
+
+.subtituloVantagens{
+    font-size: 15pt;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.vantagensReunidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imgSobre{
+    width: 150px;
+    height: 250px;
+}
+
+.paragrafoVantagens{
+    margin-left: 10vw;
+}

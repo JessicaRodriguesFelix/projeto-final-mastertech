@@ -1,18 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 .App {
-  text-align: center;
-}
-
-
-.App-header {
-  background-color:transparent;
-  height: 50px;
-  padding: 40px 40px;
-  color: #F45B69;
-  margin: 8px auto;
-  font-family: 'Comfortaa', cursive;
-  font-size: 20px;
-}
+    text-align: center;
+  }
 
 
 

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+.App {
+  text-align: center;
+}
+
+
+.InterHeader h1 {
+  background-color:transparent;
+  color: #F45B69;
+  margin-top: 40px;
+  margin-left: 60px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 40px;
+  max-width: 300px;
+  min-height: 100px;
+
+}
+
+.headerTamanhos{
+    width: 100%;
+}

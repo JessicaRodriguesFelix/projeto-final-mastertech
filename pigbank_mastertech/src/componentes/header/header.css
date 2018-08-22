@@ -1,48 +1,44 @@
-body{
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans');
 
 .telaInicial{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: url("crianca-exemplo.jpg");
+    background-image: url("bg-menina.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     margin: 0;
 }
 
-header{
+.headerMenu{
     display: flex;
     width: 100%;
-    height: 10vh;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
+    margin:-5vw;
 }
 
-a{
-    margin: 50px;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 17pt;
+.scroll{
+    color: white;
+    text-decoration-line: none;
+    font-size: 15pt;
 }
 
-a:hover{
+
+.scroll:hover{
     text-decoration: underline;
-    color: #009688;
+    color: #7c1fa3;
+    font-size: 17pt;
+    font-weight: bold;
 }
 
 .logo{
-   margin-top: 30px;
-   height: 100px;
-   width: 100px;
-   margin-left: 30px;
+   height: 73px;
+   width: 108px;
 }
 
 .chamada{
@@ -50,14 +46,42 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
-}
-
-span{
+    margin: 0;
+    color: #ffffff;
     font-size: 20pt;
     font-weight: bold;
 }
 
-.botaoInicial{
-    color: aqua;
+.botaoInicialHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.botaoCadastroHeader, .botaoComoFunciona{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: #7c1fa3;
+    color: white;
+    border: 1px solid transparent;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.botaoCadastroHeader:hover , .botaoComoFunciona:hover{
+    background-color: #af52d5;
+}
+
+#botaoIdComoFunciona{
+    color: white;
+    text-decoration-line: none;
 }

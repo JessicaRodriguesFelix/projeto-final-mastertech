@@ -23,12 +23,6 @@ class ObjetivosDoFilho extends Component {
     this.fecharModal()
   }
 
-  onItemClicked(index) {
-    const listaDeObjetivos = objetivosService.listObjetivos(this.props.filho);
-    const objetivo = listaDeObjetivos[index]
-    this.props.history.push("/conteudo/lista-filhos/" + objetivo.nome);
-  }
-
   render() {
     return (
       <div>
@@ -40,7 +34,7 @@ class ObjetivosDoFilho extends Component {
 
         <AdicionarObjetivo onClickListener={this.adicionarObjetivoClickado.bind(this)} />
 
-        <ListaObjetivos listaDeObjetivos={objetivosService.listObjetivos(this.props.filho)} onItemClickListener={this.onItemClicked.bind(this)} /> 
+        <ListaObjetivos listaDeObjetivos={objetivosService.listObjetivos(this.props.filho)} /> 
 
         <ModalCadastrarObjetivos deveAparece={this.state.mostrarObjetivosModal}
                 onCloseListener={this.fecharModal.bind(this)} onSaveListener={this.salvarObjetivo.bind(this)} />

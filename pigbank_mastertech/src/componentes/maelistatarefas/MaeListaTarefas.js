@@ -25,9 +25,7 @@ class MaeListaTarefas extends Component {
     this.fecharModal()
   }
   onItemClicked(index) {
-    const listaDeTarefas = tarefasService.listTarefas(this.props.filho);
-    const tarefa = listaDeTarefas[index]
-    this.props.history.push("/conteudo/lista-filhos/" + tarefa.nome);
+
   }
 
   render() {

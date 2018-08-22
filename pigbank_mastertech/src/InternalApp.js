@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import Footer from './componentes/footer/Footer'
 import Container from './componentes/container/Container'
+import InternalHeader from './componentes/internalheader/InternalHeader';
+import InternalFooter from './componentes/internalfooter/InternalFooter';
+
 
 
 class InternalApp extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <h1>PigBank</h1>
-                </header>
+                <InternalHeader/>
                 <Container />
-                <Footer />
+                <InternalFooter/>
             </div>
         );
     }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './SelecionadorDeOpcoes.css';
+import BotaoRoxo from '../botaoroxo/BotaoRoxo';
+
 
 class SelecionadorDeOpcoes extends Component {
 
@@ -9,10 +11,13 @@ class SelecionadorDeOpcoes extends Component {
 
   render() {
     return (
-      <div className="App">
-
-        <button onClick={() => this.nextPath('/conteudo/lista-filhos')} class="botaoOpcao">MAE</button>
-        <button class="botaoOpcao">FILHO</button>
+      <div className="botoesPrincipal">
+        <div className="botaoMae">
+          <button onClick={() => this.nextPath('/conteudo/lista-filhos')} className="estiloBotaoRoxo">MAE</button>
+        </div>
+        <div className="botaoFilho">
+          <button onClick={() => this.nextPath('/conteudo/resumo-filho')} className="estiloBotaoBranco">FILHO</button>
+        </div>
       </div>
     );
   }

@@ -1,27 +1,10 @@
-.header{
-    background-color:#7f46d9;
-    color: black;
+
+.botoesPrincipal{
+    display: flex;
+    align-items: center;
+        
 }
-.botaoOpcao{
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color:white;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color:#FF9800;
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6); 
-    }
-    
-.botaoOpcao:hover {
-    cursor: pointer;
+.botaoMae{
+    padding-right: 30px;
 }
-    
-.botaoOpcao:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6); 
-     
-}
+

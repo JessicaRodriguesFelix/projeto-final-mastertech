@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import './header.css';
-import logo from '../header/logo-exemplo.jpg';
+import Scrollchor from 'react-scrollchor';
+import '../header/header.css';
+import BotaoRoxo from '../botaoroxo/BotaoRoxo';
+import BotaoBranco from '../botaobranco/BotaoBranco.'
+import logo from '../header/Logo.png';
 
 class Header extends Component {
 
@@ -11,22 +14,23 @@ class Header extends Component {
   render() {
     return (
       <div className='telaInicial'>
-        <header>
-        <img className='logo' src={logo} alt="Logo"/>
-          <a href="">O que é</a>
-          <a href="">Como funciona</a>
-          <a href="">Quero usar</a>
-          <a href="">Quem somos</a>
-          <a href="">Contato</a>
+        <header className='headerMenu'>
+          <img className='logo' src={logo} alt="Logo"/>
+          <a className= 'menu' href="#sobre"><Scrollchor className="scroll" to="sobre"> O que é </Scrollchor></a>
+          <a className= 'menu' href="#comoFunciona"><Scrollchor className="scroll" to="comoFunciona"> Como funciona </Scrollchor></a>
+          <a className= 'menu' href="">Quero usar</a>
+          <a className= 'menu' href="">Quem somos</a>
+          <a className= 'menu' href="">Contato</a>
         </header>
 
         <div className='chamada'>
-            <h2>Não sabe como falar com seu filho sobre educação financeira?</h2>
-            <span> O Pigbank pode te ajudar!</span>
-            <div className='botaoInicial'>
-              <button>Como funciona</button>
-              <button onClick={()=>this.openContainer()}>Faça seu cadastro</button>
-            </div>
+          <h3>Não sabe como falar com seu filho sobre educação financeira?</h3>
+          <h3> O Pigbank pode te ajudar!</h3>
+        </div>
+
+        <div className='botaoInicialHeader'>
+          <button className='botaoComoFunciona'><Scrollchor id='botaoIdComoFunciona' to="comoFunciona">Como funciona</Scrollchor></button>
+          <button className='botaoCadastroHeader' onClick={this.openContainer.bind(this)}>Faça seu cadastro</button>
         </div>
       </div>
     );
