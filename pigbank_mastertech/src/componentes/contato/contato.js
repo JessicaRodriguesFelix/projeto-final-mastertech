@@ -1,29 +1,23 @@
 import React, { Component } from 'react';
 import '../contato/contato.css';
-import logocontato from '../contato/logocontato.png';
 import facebook from '../contato/facebook.png';
 import instagram from '../contato/instagram.png';
 import youtube from '../contato/youtube.png';
 import twitter from '../contato/twitter.png';
 
 class contato extends Component {
-
-  openContainer(){
-    this.props.history.push('/conteudo');
-  }
-
   render() {
     return (
     
-      <footer>
+      <footer id="contato">
         <div className='contato-footer'>
               {/* <div className='logo-footer'>
                 <img className='imglogo'src={logocontato} alt="Logo"/>     
               </div> */}
               <div className='conteudo-footer'>
-                  <h3 className='titulo'>Entre em Contato Conosco</h3>  
+                  <h3 className='titulo'>Ficou com alguma dúvida? Entre em contato</h3>  
                   <span className='email'> ✉ contato@pigbank.com.br</span>
-                  <span className='fone'> ☏ (11)4546-4000</span>                      
+                  <span className='fone'> ☏ (11) 4546-4000</span>                      
               </div>    
         <div class='rede-social'>  
             <div className="rede" id="facebook">

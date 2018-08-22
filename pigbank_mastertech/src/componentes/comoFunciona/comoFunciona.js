@@ -11,7 +11,7 @@ class comoFunciona extends Component {
     return (
         <section className='sectionComoFunciona' id="comoFunciona">
         <div className='listaComofunciona'>
-                <h3 className= 'tituloComofunciona'>Como o PigBank funciona?</h3>
+                <h3 className= 'tituloComofunciona'>Como o Pigbank funciona?</h3>
             </div>
 
             <div className='listaComofunciona'>

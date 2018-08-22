@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans');
+
 .contato-footer{
     background-color: #43a047;
     height: 250px;
     color: whitesmoke;
     padding: 10px;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;

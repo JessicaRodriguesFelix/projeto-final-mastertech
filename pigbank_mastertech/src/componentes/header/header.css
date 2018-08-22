@@ -19,12 +19,12 @@
     width: 100%;
     justify-content: space-evenly;
     flex-direction: row;
-    margin:-5vw;
+    margin:-2vw;
 }
 
 .scroll{
     color: white;
-    text-decoration-line: none;
+    text-decoration-line: unset;
     font-size: 15pt;
 }
 
