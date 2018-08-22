@@ -1,5 +1,5 @@
 .contato-footer{
-    background-color: #38006b;
+    background-color: #43a047;
     height: 250px;
     color: whitesmoke;
     padding: 10px;
@@ -39,7 +39,7 @@
 
 .rede:hover{
     /*cursor: pointer;*/
-    transform: translateY(-18px);
+    transform: translateY(-8px);
     box-shadow: 4px 30px 16px 0px (50,50,50, 0.45);
 }
 
@@ -54,4 +54,5 @@
 .rede-social{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }

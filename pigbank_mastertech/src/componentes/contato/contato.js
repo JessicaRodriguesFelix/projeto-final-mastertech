@@ -6,8 +6,6 @@ import instagram from '../contato/instagram.png';
 import youtube from '../contato/youtube.png';
 import twitter from '../contato/twitter.png';
 
-
-
 class contato extends Component {
 
   openContainer(){

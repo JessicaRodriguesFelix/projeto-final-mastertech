@@ -3,6 +3,8 @@ import '../landingPage/landingPage.css';
 import Header from '../header/header';
 import Sobre from '../sobre/sobre';
 import Contato from '../contato/contato';
+import ComoFunciona from '../comoFunciona/comoFunciona';
+import QuemSomos from '../quemsomos/QuemSomos';
 
 class LandingPage extends Component {
 
@@ -15,6 +17,8 @@ class LandingPage extends Component {
       <div>
         <Header/>
         <Sobre/>
+        <ComoFunciona/>
+        <QuemSomos/>
         <Contato/>
       </div>
     );

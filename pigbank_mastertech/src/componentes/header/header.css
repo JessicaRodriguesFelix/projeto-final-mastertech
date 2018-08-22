@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans');
 
-body{
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
 .telaInicial{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: url("crianca-bg.jpg");
+    background-image: url("bg-menina.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,23 +13,23 @@ body{
     font-weight: 700;
 }
 
-header{
+.headerMenu{
     display: flex;
     width: 100%;
     justify-content: space-around;
     flex-direction: row;
 }
 
-a{
+.menu{
     margin: 0;
     text-decoration: none;
-    color: #000000;
+    color: #7f46d9;
     font-size: 20pt;
 }
 
-a:hover{
+.menu:hover{
     text-decoration: underline;
-    color: #7f46d9;
+    color: #009688;
     font-size: 25pt;
     font-weight: bold;
 }
@@ -53,14 +47,15 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin: 0;
-    color: #009688;
+    color: #ffffff;
     font-size: 30pt;
     font-weight: bold;
 }
 
-.botaoInicial{
+.botaoInicialHeader{
     color: aqua;
     display: flex;
+    border-radius: 23px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
