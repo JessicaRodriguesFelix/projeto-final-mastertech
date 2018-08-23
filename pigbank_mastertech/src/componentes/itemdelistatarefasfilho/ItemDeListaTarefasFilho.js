@@ -7,9 +7,9 @@ class ItemDeListaTarefasFilho extends Component {
     return (
       <div className="tarefasFilho">
       <div className="checkboxEstilo">
-        <CheckboxTarefas CheckID={this.props.indice}/>
+        <CheckboxTarefas CheckID={this.props.indice} label={this.props.tarefa.itens} />
       </div>
-         <h1>{this.props.tarefa.itens}</h1> 
+
       
       </div>
 

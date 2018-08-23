@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../quemsomos/QuemSomos.css';
-import porquinho from '../quemsomos/porquinho.png';
+import './QuemSomos.css';
+import porco from './porco.jpg';
 
 class QuemSomos extends Component {
 
@@ -22,7 +22,7 @@ class QuemSomos extends Component {
            mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para
            gerar um Lorem Ipsum com aparência razoável, livre de repetições, inserções de humor, palavras não 
            características, etc.</p>
-           <img className="porquinho" src={porquinho} alt='porquinho'/>
+           <img className="porco" src={porco} alt='porco'/>
         </section>
 
       );

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 .telaInicial{
     display: flex;
@@ -9,36 +9,48 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: 700;
     margin: 0;
+    
 }
 
-.headerMenu{
+.headerMenu {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     flex-direction: row;
     margin:-5vw;
+    
+    
+}
+.menuO{
+    color: #F45B69;
+    font-size: 16pt;
+    
+}
+.menuO:hover{
+    color: white;
+    
 }
 
 .scroll{
-    color: white;
+    color: #F45B69;
     text-decoration-line: none;
-    font-size: 15pt;
+    font-size: 16pt;
 }
 
 
 .scroll:hover{
     text-decoration: underline;
-    color: #7c1fa3;
-    font-size: 17pt;
-    font-weight: bold;
+    color: white;
+    
+   
 }
 
 .logo{
-   height: 73px;
-   width: 108px;
+   height: 120px;
+   width: 140px;
 }
 
 .chamada{
@@ -47,7 +59,7 @@
     justify-content: center;
     align-items: center;
     margin: 0;
-    color: #ffffff;
+    color: white;
     font-size: 20pt;
     font-weight: bold;
 }
@@ -62,12 +74,12 @@
     justify-content: space-evenly;
 }
 
-.botaoCadastroHeader, .botaoComoFunciona{
+.botaoCadastroHeader{
     font-size: 10pt;
     border-radius: 23px;
-    background-color: #7c1fa3;
+    background-color: #F45B69;
     color: white;
-    border: 1px solid transparent;
+    border: 1px solid #F45B69;
     width: 140px;
     height: 40px;
     cursor: pointer;
@@ -75,10 +87,32 @@
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+}
+.botaoComoFunciona{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: #7b1fa2;
+    color: white;
+    border: 1px solid #7b1fa2;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+
 }
 
-.botaoCadastroHeader:hover , .botaoComoFunciona:hover{
-    background-color: #af52d5;
+.botaoCadastroHeader:hover {
+    background-color: #F45B69;
+    border: transparent;
+}
+.botaoComoFunciona:hover{
+    background-color: #7b1fa2;
+
 }
 
 #botaoIdComoFunciona{

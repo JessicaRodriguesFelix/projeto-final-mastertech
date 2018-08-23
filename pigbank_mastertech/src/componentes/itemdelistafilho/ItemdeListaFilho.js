@@ -5,9 +5,9 @@ import trash from './delete-circle.png';
 class ItemDeListaFilho extends Component {
   render() {
     return (
-      <div className="ItemDeListaFilho">
-      <img src={trash} onClick={() => this.props.onItemClickListener(this.props.indice)}/>
-        <h1>{this.props.filho.nome} </h1>
+    
+      <div className="ItemDeListaFilho" onClick={() => this.props.onItemClickListener(this.props.indice)}>
+        {this.props.filho.nome} 
 
       </div>
     );

@@ -4,6 +4,7 @@ import Modal from '../modal/Modal'
 import InputComLabel from '../inputcomlabel/InputComLabel';
 import BotaoBranco from '../botaobranco/BotaoBranco.';
 import BotaoRoxo from '../botaoroxo/BotaoRoxo';
+import InputComData from '../inputcomdata/InputComData';
 
 
 
@@ -31,7 +32,7 @@ class ModalCadastrarFilho extends Component {
             <InputComLabel label="Quem você vai ensinar a conquistar sonhos pela educação financeira? *" />
             <InputComLabel label="Como você é chamado por ele? *" />
             <InputComLabel label="Nome *" inputId="nome" />
-            <InputComLabel label="Data De Nascimento*" />
+            <InputComData label="Data De Nascimento*" />
 
             <div className='botoes'>
               <BotaoBranco conteudo="Cancelar" onClickListener={this.props.onCloseListener} />

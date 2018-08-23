@@ -4,12 +4,14 @@ import './CheckboxTarefas.css';
 class CheckboxTarefas extends Component {
     render() {
         return (
+            <label htmlFor={this.props.CheckID}>
+                <div className="round">
+                    <input type="checkbox" id={this.props.CheckID} />
+                    <div class="icon"></div>
+                </div>
 
-            <div className="round">
-                <input type="checkbox" id={this.props.CheckID} />
-                <label htmlFor={this.props.CheckID}></label>
-            </div>
-
+                {this.props.label}
+            </label>
         );
     }
 }

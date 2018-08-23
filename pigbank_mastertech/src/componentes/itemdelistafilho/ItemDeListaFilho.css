@@ -1,22 +1,15 @@
 .ItemDeListaFilho{
-font-size: 10pt;
+font-size: 20px;
 color: white;
 background-color: #7b1fa2;
 border-radius: 4px;
-width: 40vw;
-height: 5vw;
+width: 36vw;
+height: 4vw;
 cursor: pointer;
 margin: 5px auto;
 display: flex;
-flex-direction: row;
+justify-content: center;
 align-items: center;
 
 }
 
-.ItemDeListaFilho h1{
-    padding-left: 18px;
-}
-.ItemDeListaFilho img{
-    padding-left: 18px;
-
-}

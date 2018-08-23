@@ -1,21 +1,23 @@
 .ObjetivosaRealizar{
-    font-size: 10pt;
+    font-size: 20px;
     color: white;
     background-color: #7b1fa2;
     border-radius: 4px;
-    width: 40vw;
-    height: 5vw;
+    width: 36vw;
+    height: 4vw;
     cursor: pointer;
     margin: 5px auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
-    
-    
-    .ObjetivosaRealizar h1{
-        padding-left: 18px
-    }
-    .ObjetivosaRealizar img{
-        padding-left: 18px;
-    }
+.lista{
+    padding-left: 18px;
+    font-size: 25px;
+}
+.ObjetivosaRealizar img{
+    padding-left: 18px;
+    width: 40px;
+    height: 40px;
+}

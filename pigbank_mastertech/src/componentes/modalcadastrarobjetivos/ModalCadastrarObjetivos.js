@@ -5,7 +5,6 @@ import InputComLabel from '../inputcomlabel/InputComLabel';
 import BotaoBranco from '../botaobranco/BotaoBranco.';
 import BotaoRoxo from '../botaoroxo/BotaoRoxo';
 import InputComData from '../inputcomdata/InputComData';
-import InputComOpcoes from '../inputcomopcoes/InputComOpcoes';
 
 
 

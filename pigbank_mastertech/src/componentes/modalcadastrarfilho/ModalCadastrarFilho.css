@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 .cadastrarCriança { 
     font-size: 15pt;
@@ -16,8 +16,12 @@
     background-color: rgb(185, 179, 179);
     border: transparent;
     border-radius: 15px;
-    width: 30vw;
-    height: 3vw;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
     font-family: 'PT Sans', sans-serif;
   
 }

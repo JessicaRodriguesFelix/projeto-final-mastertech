@@ -1,11 +1,11 @@
 .BotaoOb {
-    font-size: 10pt;
+    font-size: 20px;
     color: #7b1fa2;
     border: 1px dotted grey;
     background-color: transparent;
     border-radius: 4px;
-    width: 40vw;
-    height: 5vw;
+    width: 36vw;
+    height: 4vw;
     cursor: pointer;
     border-color: #7b1fa2;
 }

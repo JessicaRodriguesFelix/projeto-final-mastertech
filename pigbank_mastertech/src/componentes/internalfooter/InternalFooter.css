@@ -4,6 +4,8 @@
     align-items: flex-end;
     display: flex;
     margin-left: 60px;
+    position: fixed;
+    bottom: 0;
 
 }
 .footer-telas{

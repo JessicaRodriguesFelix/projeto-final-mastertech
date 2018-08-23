@@ -8,7 +8,7 @@ class ItemDeListaObjetivo extends Component {
       <div className="ObjetivosaRealizar">
         <img src={trash} onClick={() => this.props.onItemClickListener(this.props.indice)} />
 
-        <h1>{this.props.objetivo.item} </h1>
+       <div className="lista"> {this.props.objetivo.item}</div> 
       </div>
     );
   }

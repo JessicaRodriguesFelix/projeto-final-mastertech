@@ -3,7 +3,7 @@
 .sectionSobre{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #7c1fa3;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #ffffff;
+    color: #7b1fa2;
     font-size: 15pt;
     font-weight: bold;
     align-items: center;
@@ -26,13 +26,13 @@
     justify-content: center;
     align-items: center;
     font-size: 13pt;
-    color: #ffffff;
+    color: #7b1fa2;
     
 }
 
 .subtituloVantagens{
     font-size: 15pt;
-    color: #ffffff;
+    color: #7b1fa2;
     font-weight: bold;
 }
 

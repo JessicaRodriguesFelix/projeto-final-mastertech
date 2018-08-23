@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 .criarTarefa { 
     font-size: 15pt;
     border-radius: 5px;
     border: transparent;
     margin: 0px auto;
     padding: 10px ;
+    font-family: 'PT Sans', sans-serif;
     
 
 } 
@@ -19,6 +21,7 @@
     flex-direction: row;
     align-items: center;
     padding-left: 30px;
+    font-family: 'PT Sans', sans-serif;
   
 }
 

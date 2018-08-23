@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 .sectionQuemSomos{
-    background-color: #7c1fa3;
+    /* background-color: #7b1fa2; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
 }
 
 .tituloQuemSomos{
@@ -11,10 +16,12 @@
     text-align: center;
     align-items: center;
     font-family: Open Sans;
-    color: whitesmoke; 
+    color: #7A9B15; 
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
 }
 .paragrafoQuemSomos{
-    color: whitesmoke;
+    color: #7A9B15;
     font-family: Open Sans;
     font-size: 13pt;
     display: block;
@@ -22,7 +29,9 @@
     text-align: justify;
     margin: 0 auto;
     padding: 15px;
-    margin: 5px auto
+    margin: 5px auto;
+    width: 960px
+   
 }
 .porquinho{
     width: 150px;

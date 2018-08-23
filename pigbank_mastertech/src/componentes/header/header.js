@@ -18,9 +18,9 @@ class Header extends Component {
           <img className='logo' src={logo} alt="Logo"/>
           <a className= 'menu' href="#sobre"><Scrollchor className="scroll" to="sobre"> O que é </Scrollchor></a>
           <a className= 'menu' href="#comoFunciona"><Scrollchor className="scroll" to="comoFunciona"> Como funciona </Scrollchor></a>
-          <a className= 'menu' href="">Quero usar</a>
-          <a className= 'menu' href="">Quem somos</a>
-          <a className= 'menu' href="">Contato</a>
+          <a className= 'menuO' href="">Quero usar</a>
+          <a className= 'menuO' href="">Quem somos</a>
+          <a className= 'menuO' href="">Contato</a>
         </header>
 
         <div className='chamada'>
