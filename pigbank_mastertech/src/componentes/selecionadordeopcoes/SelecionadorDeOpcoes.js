@@ -13,10 +13,10 @@ class SelecionadorDeOpcoes extends Component {
     return (
       <div className="botoesPrincipal">
         <div className="botaoMae">
-          <button onClick={() => this.nextPath('/conteudo/lista-filhos')} className="estiloBotaoRoxo">RESPONSAVEL</button>
+          <button onClick={() => this.nextPath('/conteudo/lista-filhos')} className="estiloBotaoRoxo">Responsável</button>
         </div>
         <div className="botaoFilho">
-          <button onClick={() => this.nextPath('/conteudo/resumo-filho')} className="estiloBotaoBranco">CRIANÇA</button>
+          <button onClick={() => this.nextPath('/conteudo/resumo-filho')} className="estiloBotaoBranco">Criança</button>
         </div>
       </div>
     );

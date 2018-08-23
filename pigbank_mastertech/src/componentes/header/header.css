@@ -24,26 +24,29 @@
     
     
 }
-.menuO{
-    color: #F45B69;
-    font-size: 16pt;
-    
-}
-.menuO:hover{
+.menuO {
     color: white;
+    font-size: 16pt;
+ 
+}
+.menuO , a{
+    text-decoration: none;
+}
+
+.menuO:hover{
+    color: #F45B69;
     
 }
 
 .scroll{
-    color: #F45B69;
+    color: white;
     text-decoration-line: none;
     font-size: 16pt;
 }
 
 
 .scroll:hover{
-    text-decoration: underline;
-    color: white;
+    color: #F45B69;
     
    
 }
