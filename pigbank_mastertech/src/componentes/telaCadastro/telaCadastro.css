@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans');
+
+.sectionCadastroInicial{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 10vh;
+}
+
+.informacoesCadastroInicial{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+.botoesCadastrarTelaInicial{
+    width: 100%;
+    background-color: #7c1fa3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.botoesCadastrarTelaInicial:hover{
+    background-color: #af52d5;
+}
+
+.CadastroResponsavelInicial{
+    border-radius: 5px;
+    background-color: #ebe9e9;
+    padding: 20px;
+}
+
+.informacoesCadastroInicial:focus{
+    border: 1.5px solid #7c1fa3;
+}
+
+.TituloTelaCadastro{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #43a047;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.TituloCadastroCrianca{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #43a047;
+    font-size: 20pt;
+    font-weight: 700;
+}

@@ -1,45 +1,54 @@
-// import React, { Component } from 'react';
-// import '../telaCadastro/telaCadastro.css';
+import React, { Component } from 'react';
+import '../telaCadastro/telaCadastro.css';
 
-// class TelaCadastro extends Component {
-//   render() {
-//     return (
-//         <div className="row">
-//             <form className="col s12"/>
-//             <div className="row">
-//             <div className="input-field col s6"/>
-//                 <input placeholder="Placeholder" id="first_name" type="text" className="validate"/>
-//                 <label for="first_name">First Name</label>
-//             </div>
+class TelaCadastro extends Component {
+    render() {
+        return (
+            <section className='sectionCadastroInicial' id="telaCadastro">
+            <h3 className="TituloTelaCadastro">Cadastro do responsável</h3>
+            
+            <div className="CadastroResponsavelInicial">
+            {/* <form action="/action_page.php"> */}
+            <label for="fname">Nome</label>
+            <input type="text" className="informacoesCadastroInicial" name="nome" placeholder="Digite Seu nome"/>
+            
+            <label for="lname">Sobrenome</label>
+            <input type="text" className="informacoesCadastroInicial" name="sobrenome" placeholder="Digite seu sobrenome"/>
+            
+            <label for="lname">E-mail</label>
+            <input type="text" className="informacoesCadastroInicial" name="email" placeholder="Digite seu e-mail"/>
+            
+            <label for="lname">Senha</label>
+            <input type="text" className="informacoesCadastroInicial" name="senha" placeholder="Crie uma senha de 6 a 8 dígitos"/>
+            
+            <label for="lname">Confirme sua senha</label>
+            <input type="text" className="informacoesCadastroInicial" name="confirmacaoSenha" placeholder="A senha não pode ser diferente da criada anteriormente"/>
+            
+            <input type="submit" className="botoesCadastrarTelaInicial" value="Cadastrar"/>
+            {/* </form> */}
+            </div>
+            
+            <h3 className="TituloCadastroCrianca">Adicionar criança</h3>
+            
+            <div className="CadastroResponsavelInicial">
+            {/* <form action="/action_page.php"> */}
+            <label for="fname">Nome</label>
+            <input type="text" className="informacoesCadastroInicial" name="nomeCrianca" placeholder="Quem você vai ensinar a conquistar sonhos pela educação financeira?"/>
+            
+            <label for="lname">Data de nascimento</label>
+            <input type="text" className="informacoesCadastroInicial" name="niverCrianca" placeholder="Digite a data de nascimento da criança"/>
+            
+            <label for="lname">E-mail</label>
+            <input type="text" className="informacoesCadastroInicial" name="emailCrianca" placeholder="Digite seu e-mail"/>
+            
+            <label for="lname">Senha</label>
+            <input type="text" className="informacoesCadastroInicial" name="senhaCrianca" placeholder="Crie uma senha de 6 a 8 dígitos"/>
+            <input type="submit" className="botoesCadastrarTelaInicial" value="Cadastrar"/>
+            {/* </form> */}
+            </div>
+            </section>
+        );
+    }
+}
 
-//             <div className="input-field col s6">
-//                 <input id="last_name" type="text" className="validate"/>
-//                 <label for="last_name">Last Name</label>
-//             </div>
-//         </div>
-
-//         <div className="row">
-//             <div className="input-field col s12">
-//                 <input disabled value="I am not editable" id="disabled" type="text" className="validate"/>
-//                 <label for="disabled">Disabled</label>
-//             </div>
-//         </div>
-
-//         <div className="row">
-//             <div className="input-field col s12">
-//                 <input id="password" type="password" className="validate"/>
-//                 <label for="password">Password</label>
-//             </div>
-//         </div>
-
-//         <div className="row">
-//             <div className="input-field col s12">
-//                 <input id="email" type="email" className="validate"/>
-//                 <label for="email">Email</label>
-//             </div>
-//         </div>
-//     );
-//   }
-// }
-
-// export default TelaCadastro;
+export default TelaCadastro;

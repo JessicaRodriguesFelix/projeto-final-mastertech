@@ -7,6 +7,8 @@ class Header extends Component {
 
   openContainer(){
     this.props.history.push('/conteudo');
+    this.props.history.push('/cadastro');
+
   }
 
   render() {
@@ -16,7 +18,7 @@ class Header extends Component {
           <img className='logo' src={logo} alt="Logo"/>
           <a className= 'menu' href="#sobre"><Scrollchor className="scroll" to="sobre"> O que é </Scrollchor></a>
           <a className= 'menu' href="#comoFunciona"><Scrollchor className="scroll" to="comoFunciona"> Como funciona </Scrollchor></a>
-          <a className= 'menu' href="">Quero usar</a>
+          <a className= 'menu' href="#telaCadastro">Quero usar</a>
           <a className= 'menu' href="#quemSomos"><Scrollchor className="scroll" to="quemSomos">Quem somos </Scrollchor></a>
           <a className= 'menu' href="#contato"><Scrollchor className="scroll" to="contato">Contato </Scrollchor></a>
         </header>

@@ -25,6 +25,8 @@
 
 .menu{
     text-decoration-line: none;
+    font-size: 15pt;
+    color: white;
 }
 
 .scroll{
@@ -34,7 +36,7 @@
 }
 
 
-.scroll:hover{
+.scroll:hover , .menu:hover{
     text-decoration: underline;
     color: #7c1fa3;
     font-size: 17pt;
